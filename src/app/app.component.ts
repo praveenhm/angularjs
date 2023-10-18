@@ -78,6 +78,7 @@ export class AppComponent {
         this.cards = this.cardsRetrieved;
       } else {
         this.cards = this.cardsRetrieved.filter(t=>t.type === typ);
+        this.cards = this.cardsRetrieved;
       }
     } else {
       this.invokeSearch();

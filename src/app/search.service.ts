@@ -13,7 +13,7 @@ export class SearchService {
   //{"type":"general","setup":"What’s the advantage of living in Switzerland?","punchline":"Well, the flag is a big plus.","id":283}
   private _postReflectorUrl: string = "https://httpbin.org/post";
   */
-  private _postAIUrl: string = "http://127.0.0.1:8000/search";
+  private _postAIUrl: string = "http://127.0.0.1:8006/search";
 
   constructor(private http: HttpClient) { }
 
